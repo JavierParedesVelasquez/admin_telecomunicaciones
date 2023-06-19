@@ -1,0 +1,78 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.body{
+    height: 100vh;
+    /* background-image: linear-gradient(139.96deg, #010101 9.59%, #5531F3 113.47%); */
+    display: flex;
+    align-items: center;
+}
+.login{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 100%;
+    padding: 80px;
+}
+.div_login_main{
+    display: grid;
+    justify-content: left;
+    align-items: center;
+}
+.form_signin{
+    background: #cccbcd;
+    width: auto;
+    margin: auto;
+    height: 355px;
+    text-align: center;
+    display: grid;
+    padding: 50px;
+    gap: 18px;
+    border-radius: 26px;
+}
+.div_login_img{
+    display: grid;
+    justify-items: right;
+}
+.div_login_img img{
+    width: 80%;
+}
+.form_signin h2{
+    color: #fff;
+}
+.form_signin input{
+    padding-left: 16px;
+}
+.bxs-user-circle{
+    font-size: 70px;
+    color: #06253B;
+}
+.div_left{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.form-label{
+    color: #06253B;
+    font-weight: bold;
+}
+/* Button Login*/
+.btn-primary{
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #06253B;
+    --bs-btn-border-color: #06253B;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #8897A1;
+    --bs-btn-hover-border-color: #8897A1;
+    --bs-btn-focus-shadow-rgb: 49,132,253;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #06253B;
+    --bs-btn-active-border-color: #8897A1;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: #06253B;
+    --bs-btn-disabled-border-color: #06253B;
+}
+
+/*  */
